@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="C]qfTnsw_2}}`YAd(f#r">mySprite</variable><variable type="KIND_SpriteKind" id="nXOnNaA$^6jgcu+I/L0U">Player</variable><variable type="KIND_SpriteKind" id="eZ72OcpO``xWS)g`o:CL">Projectile</variable><variable type="KIND_SpriteKind" id="vCr^bh[KNdAYp`2|#V,K">Food</variable><variable type="KIND_SpriteKind" id="!2[v`(~/GC65Ke!+E4iA">Enemy</variable><variable type="KIND_SpriteKind" id="rfL0wEL*z@Z-,0Z8lbAM">Ball</variable><variable type="KIND_SpriteKind" id="8S11d05Wf:LvPys-m5tL">Booth</variable><variable type="KIND_SpriteKind" id="sqTUt-qmZ~`^RWbvxx^5">Mouse</variable><variable type="KIND_SpriteKind" id="vT_O;T1?WD;n^:tgOENm">Crosshair</variable><variable type="KIND_SpriteKind" id="dpf;D[QVGNc]vVVEPr!#">Moon</variable><variable type="KIND_SpriteKind" id="UjBWu,Q6dRMz-vC8JM`^">StatusBar</variable><variable type="KIND_SpriteKind" id="cbaVAljba:Z)[R_@9_Zh">Text</variable></variables><block type="pxt-on-start" id="NDYz$?$pPW?w/y^X6F88" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="@vc3f%]~k%QAU|bLa*T%"><field name="VAR" id="C]qfTnsw_2}}`YAd(f#r">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="4*(WDwF;8y0h*j.q{xYz"><value name="img"><shadow type="screen_image_picker" id="Whw-T$|Q9a8:+sMpHq-1"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Whw-T$|Q9a8:+sMpHq-1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="hL3XZijtgK?k4]D}Bp$O"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id="gvy%jrI|!D|OC92|-2an" x="10" y="150"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="game_show_long_text" id="=GP%7HA%@cil:z-q~HeJ"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text" id="#5$wC|.4%B3YSG8N1:7h"><field name="TEXT">Time is waktu, karena waktu adalah pedang</field></shadow></value><next><block type="music_playable_play" id="h9IC:+i,~xvtz3g~AXw?"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="music_melody_playable" id="tr=D,-!Jo54+ueCngg0x"><field name="melody">music.wawawawaa</field></shadow></value><next><block type="particlesStartScreenAnimation" id="*]PtLd~[Ns?z!|_XBqN3"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="effect">effects.confetti</field><value name="duration"><shadow type="timePicker" id="m-4SPiU.0Y$@Ca6yKF]j"><field name="ms">500</field></shadow></value></block></next></block></next></block></statement></block></xml>
